@@ -1,0 +1,54 @@
+
+         body{
+    background-image: url("https://img.freepik.com/free-vector/brown-wallpaper-with-retro-watch-design_1308-18196.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align:center;
+}
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+        .card{
+            background-color: #f0cf64;
+            padding: 20px;
+            border-radius: 40px;
+           box-shadow:0 8px 20px rgba(0,0,0,0.2);
+            text-align: center;
+        
+        }
+       .display{
+    font-size:2.5em;
+    margin-bottom:20px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+        .buttoncontrols button{
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 1.5em;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            transition:0.3s;
+            background-color: #b9a00e;
+            color: rgb(26, 24, 24);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .icon{
+    width:80px;
+    margin-bottom:10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.buttoncontrols button:hover{
+    background-color:#8f7b05;
+    transform:scale(1.05);
+}
+    
